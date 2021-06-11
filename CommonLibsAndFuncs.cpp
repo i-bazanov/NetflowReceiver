@@ -4,7 +4,7 @@
 
 
 #ifdef PLATFORM_WINDOWS
-void init_sockets()
+void init_socket()
 {
     WSADATA wsaData;
     int checkWS = WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -23,7 +23,7 @@ void return_error()
 }
 
 #else
-void init_sockets() {}
+void init_socket() {}
 
 void return_error() {}
 

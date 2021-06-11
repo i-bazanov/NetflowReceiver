@@ -1,10 +1,8 @@
 ﻿#include "OStreamer.h"
-#include "FileWriter.h"
 
 int main(int argc, char* argv[])
 {
-    FW::FileWriter fw("../collected_data.csv");
-    OS::OStreamer os;
+    OStreamer os("../collected_data.csv");
 
     return 0;
 }

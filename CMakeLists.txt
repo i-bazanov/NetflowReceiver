@@ -16,7 +16,7 @@ if(WIN32)
     )
 else()
     list(APPEND LIBRARIES
-        pthread
+        #pthread
     )
 	SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 endif()

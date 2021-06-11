@@ -21,6 +21,6 @@ typedef SOCKET socktype_t;
 typedef int socktype_t;
 #endif // PLATFORM_WINDOWS
 
-void init_sockets();
+void init_socket();
 
 void return_error();
